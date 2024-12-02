@@ -1,4 +1,4 @@
-import jobsModel from "../models/jobModel.js"
+import jobsModel from "../models/jobModel.js";
 import mongoose from "mongoose";
 import moment from "moment";
 
@@ -49,7 +49,6 @@ export const getAllJobsController = async (req, res, next) => {
   const numOfPage = Math.ceil(totalJobs / limit);
 
   const jobs = await queryResault;
-  //const jobs = await jobsModel.find({ createdBy: req.user.userId });
   res.status(200).json({
     totalJobs,
     jobs,
