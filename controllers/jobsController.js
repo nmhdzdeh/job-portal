@@ -1,4 +1,4 @@
-import jobsModel from "../models/jobsModel.js";
+import jobsModel from "../models/jobModel.js"
 import mongoose from "mongoose";
 import moment from "moment";
 
