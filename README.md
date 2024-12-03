@@ -1,3 +1,5 @@
+https://job-portal-uub7.onrender.com/api-doc/
+
 # Job Portal API
 
 This is a job portal API built with Node.js, Express and MongoDB. Users can register, log in, and perform CRUD operations on job listings using JWT authentication.
